@@ -1,2 +1,7 @@
-# This is Backend code
-## My website hosted link- https://symphonious-melba-95bf3b.netlify.app/
+# Restaurant Website 
+## Overview
+This project is a Restaurant Website built with Node.js, Express.js, and MongoDB to manage to do authentication, taking order and managing food order's data. 
+
+## Live HostedLink-
+https://foody-restaurantsite.netlify.app
+
