@@ -11,7 +11,7 @@ const authMiddleware = (req, res, next) => {
         console.log("Decoded token ",decodedToken);
         req.userId = decodedToken.id; // Extract the user ID from the token and add to request object
 
-        next(); // Proceed to the next middleware
+        next(); 
     } catch (error) {
         console.error('Token verification error:', error);
         return res.status(401).json({ message: 'Invalid token' });
