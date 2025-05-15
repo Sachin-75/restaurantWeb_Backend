@@ -1,7 +1,7 @@
 node_modules
 
 # Project files and directories to ignore
-package.json
-package-lock.json
-foods.json
-.env
+# package.json
+# package-lock.json
+# foods.json
+# .env
